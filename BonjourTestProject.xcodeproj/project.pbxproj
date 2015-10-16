@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD52B8C21B27119E008FC443 /* AddDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD52B8C11B27119E008FC443 /* AddDeviceViewController.swift */; };
+		AD5529FA1B1E374100DCF61D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5529F91B1E374100DCF61D /* AppDelegate.swift */; };
+		AD5529FF1B1E374100DCF61D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5529FD1B1E374100DCF61D /* Main.storyboard */; };
+		AD552A011B1E374100DCF61D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD552A001B1E374100DCF61D /* Images.xcassets */; };
+		AD552A041B1E374100DCF61D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD552A021B1E374100DCF61D /* LaunchScreen.xib */; };
+		AD552A101B1E374100DCF61D /* BonjourTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD552A0F1B1E374100DCF61D /* BonjourTestProjectTests.swift */; };
+		AD6F00D21B250F3F008C49A4 /* StoredNetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6F00D11B250F3F008C49A4 /* StoredNetService.swift */; };
+		ADD116AB1B21E056002BB946 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD116AA1B21E056002BB946 /* SearchViewController.swift */; };
+		ADD116AD1B21E244002BB946 /* ServiceDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD116AC1B21E244002BB946 /* ServiceDisplayViewController.swift */; };
+		ADD116AF1B21E2F2002BB946 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD116AE1B21E2F2002BB946 /* FavoritesViewController.swift */; };
+		ADD116B11B21E30C002BB946 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD116B01B21E30C002BB946 /* HistoryViewController.swift */; };
+		ADDB2D921B262FC800808B4D /* StoredServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB2D911B262FC800808B4D /* StoredServicesViewController.swift */; };
+		B4C9C69439AAF0AD8C3D1E34 /* Pods_BonjourTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C884640EF8D9EFD1E25B59 /* Pods_BonjourTestProject.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD552A0A1B1E374100DCF61D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD5529EC1B1E374100DCF61D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD5529F31B1E374100DCF61D;
+			remoteInfo = BonjourTestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69032D8C870CF8317A242090 /* Pods-BonjourTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonjourTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BonjourTestProject/Pods-BonjourTestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A1C884640EF8D9EFD1E25B59 /* Pods_BonjourTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BonjourTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD52B8C11B27119E008FC443 /* AddDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeviceViewController.swift; sourceTree = "<group>"; };
+		AD5529F41B1E374100DCF61D /* BonjourTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BonjourTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5529F81B1E374100DCF61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5529F91B1E374100DCF61D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD5529FE1B1E374100DCF61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD552A001B1E374100DCF61D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD552A031B1E374100DCF61D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AD552A091B1E374100DCF61D /* BonjourTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonjourTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD552A0E1B1E374100DCF61D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD552A0F1B1E374100DCF61D /* BonjourTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonjourTestProjectTests.swift; sourceTree = "<group>"; };
+		AD6F00D11B250F3F008C49A4 /* StoredNetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoredNetService.swift; sourceTree = "<group>"; };
+		ADD116AA1B21E056002BB946 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ADD116AC1B21E244002BB946 /* ServiceDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDisplayViewController.swift; sourceTree = "<group>"; };
+		ADD116AE1B21E2F2002BB946 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		ADD116B01B21E30C002BB946 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		ADDB2D911B262FC800808B4D /* StoredServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoredServicesViewController.swift; sourceTree = "<group>"; };
+		F31A65C69BBC6E86F36C41BF /* Pods-BonjourTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BonjourTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BonjourTestProject/Pods-BonjourTestProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD5529F11B1E374100DCF61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C9C69439AAF0AD8C3D1E34 /* Pods_BonjourTestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD552A061B1E374100DCF61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962675ADC9D86BC9EA1221CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69032D8C870CF8317A242090 /* Pods-BonjourTestProject.debug.xcconfig */,
+				F31A65C69BBC6E86F36C41BF /* Pods-BonjourTestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD5529EB1B1E374100DCF61D = {
+			isa = PBXGroup;
+			children = (
+				AD5529F61B1E374100DCF61D /* BonjourTestProject */,
+				AD552A0C1B1E374100DCF61D /* BonjourTestProjectTests */,
+				AD5529F51B1E374100DCF61D /* Products */,
+				962675ADC9D86BC9EA1221CA /* Pods */,
+				FAD766110E90BEB94F714371 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD5529F51B1E374100DCF61D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD5529F41B1E374100DCF61D /* BonjourTestProject.app */,
+				AD552A091B1E374100DCF61D /* BonjourTestProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD5529F61B1E374100DCF61D /* BonjourTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				AD5529F91B1E374100DCF61D /* AppDelegate.swift */,
+				ADD116AA1B21E056002BB946 /* SearchViewController.swift */,
+				ADD116AC1B21E244002BB946 /* ServiceDisplayViewController.swift */,
+				AD6F00D11B250F3F008C49A4 /* StoredNetService.swift */,
+				AD52B8C11B27119E008FC443 /* AddDeviceViewController.swift */,
+				AD68CA911B263E2900E1E0C0 /* Stored Services View Controllers */,
+				AD5529FD1B1E374100DCF61D /* Main.storyboard */,
+				AD552A021B1E374100DCF61D /* LaunchScreen.xib */,
+				AD5529F71B1E374100DCF61D /* Supporting Files */,
+				AD552A001B1E374100DCF61D /* Images.xcassets */,
+			);
+			path = BonjourTestProject;
+			sourceTree = "<group>";
+		};
+		AD5529F71B1E374100DCF61D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD5529F81B1E374100DCF61D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD552A0C1B1E374100DCF61D /* BonjourTestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD552A0F1B1E374100DCF61D /* BonjourTestProjectTests.swift */,
+				AD552A0D1B1E374100DCF61D /* Supporting Files */,
+			);
+			path = BonjourTestProjectTests;
+			sourceTree = "<group>";
+		};
+		AD552A0D1B1E374100DCF61D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD552A0E1B1E374100DCF61D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD68CA911B263E2900E1E0C0 /* Stored Services View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADD116AE1B21E2F2002BB946 /* FavoritesViewController.swift */,
+				ADD116B01B21E30C002BB946 /* HistoryViewController.swift */,
+				ADDB2D911B262FC800808B4D /* StoredServicesViewController.swift */,
+			);
+			name = "Stored Services View Controllers";
+			sourceTree = "<group>";
+		};
+		FAD766110E90BEB94F714371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C884640EF8D9EFD1E25B59 /* Pods_BonjourTestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD5529F31B1E374100DCF61D /* BonjourTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD552A131B1E374100DCF61D /* Build configuration list for PBXNativeTarget "BonjourTestProject" */;
+			buildPhases = (
+				E0DAC7ABE8190A44300665D4 /* Check Pods Manifest.lock */,
+				AD5529F01B1E374100DCF61D /* Sources */,
+				AD5529F11B1E374100DCF61D /* Frameworks */,
+				AD5529F21B1E374100DCF61D /* Resources */,
+				F0E916A8E2E4E49CCEA51017 /* Embed Pods Frameworks */,
+				9F4CC4382BF1F5FCE0206A1E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonjourTestProject;
+			productName = BonjourTestProject;
+			productReference = AD5529F41B1E374100DCF61D /* BonjourTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD552A081B1E374100DCF61D /* BonjourTestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD552A161B1E374100DCF61D /* Build configuration list for PBXNativeTarget "BonjourTestProjectTests" */;
+			buildPhases = (
+				AD552A051B1E374100DCF61D /* Sources */,
+				AD552A061B1E374100DCF61D /* Frameworks */,
+				AD552A071B1E374100DCF61D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD552A0B1B1E374100DCF61D /* PBXTargetDependency */,
+			);
+			name = BonjourTestProjectTests;
+			productName = BonjourTestProjectTests;
+			productReference = AD552A091B1E374100DCF61D /* BonjourTestProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD5529EC1B1E374100DCF61D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ivan Grachev";
+				TargetAttributes = {
+					AD5529F31B1E374100DCF61D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					AD552A081B1E374100DCF61D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = AD5529F31B1E374100DCF61D;
+					};
+				};
+			};
+			buildConfigurationList = AD5529EF1B1E374100DCF61D /* Build configuration list for PBXProject "BonjourTestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD5529EB1B1E374100DCF61D;
+			productRefGroup = AD5529F51B1E374100DCF61D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD5529F31B1E374100DCF61D /* BonjourTestProject */,
+				AD552A081B1E374100DCF61D /* BonjourTestProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD5529F21B1E374100DCF61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD5529FF1B1E374100DCF61D /* Main.storyboard in Resources */,
+				AD552A041B1E374100DCF61D /* LaunchScreen.xib in Resources */,
+				AD552A011B1E374100DCF61D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD552A071B1E374100DCF61D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F4CC4382BF1F5FCE0206A1E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonjourTestProject/Pods-BonjourTestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0DAC7ABE8190A44300665D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E916A8E2E4E49CCEA51017 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonjourTestProject/Pods-BonjourTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD5529F01B1E374100DCF61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD52B8C21B27119E008FC443 /* AddDeviceViewController.swift in Sources */,
+				AD6F00D21B250F3F008C49A4 /* StoredNetService.swift in Sources */,
+				ADD116AD1B21E244002BB946 /* ServiceDisplayViewController.swift in Sources */,
+				ADD116AB1B21E056002BB946 /* SearchViewController.swift in Sources */,
+				ADD116AF1B21E2F2002BB946 /* FavoritesViewController.swift in Sources */,
+				ADD116B11B21E30C002BB946 /* HistoryViewController.swift in Sources */,
+				ADDB2D921B262FC800808B4D /* StoredServicesViewController.swift in Sources */,
+				AD5529FA1B1E374100DCF61D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD552A051B1E374100DCF61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD552A101B1E374100DCF61D /* BonjourTestProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD552A0B1B1E374100DCF61D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD5529F31B1E374100DCF61D /* BonjourTestProject */;
+			targetProxy = AD552A0A1B1E374100DCF61D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD5529FD1B1E374100DCF61D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD5529FE1B1E374100DCF61D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD552A021B1E374100DCF61D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD552A031B1E374100DCF61D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD552A111B1E374100DCF61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD552A121B1E374100DCF61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD552A141B1E374100DCF61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69032D8C870CF8317A242090 /* Pods-BonjourTestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BonjourTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD552A151B1E374100DCF61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31A65C69BBC6E86F36C41BF /* Pods-BonjourTestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = BonjourTestProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD552A171B1E374100DCF61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BonjourTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourTestProject.app/BonjourTestProject";
+			};
+			name = Debug;
+		};
+		AD552A181B1E374100DCF61D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BonjourTestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BonjourTestProject.app/BonjourTestProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD5529EF1B1E374100DCF61D /* Build configuration list for PBXProject "BonjourTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD552A111B1E374100DCF61D /* Debug */,
+				AD552A121B1E374100DCF61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD552A131B1E374100DCF61D /* Build configuration list for PBXNativeTarget "BonjourTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD552A141B1E374100DCF61D /* Debug */,
+				AD552A151B1E374100DCF61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD552A161B1E374100DCF61D /* Build configuration list for PBXNativeTarget "BonjourTestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD552A171B1E374100DCF61D /* Debug */,
+				AD552A181B1E374100DCF61D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD5529EC1B1E374100DCF61D /* Project object */;
+}
